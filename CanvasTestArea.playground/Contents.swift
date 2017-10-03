@@ -29,7 +29,7 @@ canvas.drawRectangle(centreX: 0, centreY: 0, width: 1000, height: 1200)
 
 //Draw sun
 canvas.fillColor = Color.yellow
-
+canvas.drawEllipse(centreX: 0, centreY: 500, width: 200, height: 200)
 
 // This code is necessary to see the result in the Assistant Editor at right
 PlaygroundPage.current.liveView = canvas.imageView
