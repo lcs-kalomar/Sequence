@@ -73,17 +73,20 @@ canvas.drawEllipse(centreX: 450, centreY: 500, width: 150, height: 150)
 canvas.drawEllipse(centreX: 500, centreY: 450, width: 150, height: 150)
 
 // Draw Rainbow
-canvas.fillColor = Color.red
+canvas.defaultBorderWidth = 30
+canvas.drawShapesWithBorders = true
+canvas.drawShapesWithFill = false
+canvas.borderColor = Color.red
 canvas.drawEllipse(centreX: 250, centreY: 0, width: 500, height: 450)
-canvas.fillColor = Color.orange
+canvas.borderColor = Color.orange
 canvas.drawEllipse(centreX: 250, centreY: -20, width: 450, height: 450)
-canvas.fillColor = Color.yellow
+canvas.borderColor = Color.yellow
 canvas.drawEllipse(centreX: 250, centreY: -40, width: 400, height: 450)
-canvas.fillColor = Color.green
+canvas.borderColor = Color.green
 canvas.drawEllipse(centreX: 250, centreY: -60, width: 350, height: 450)
-canvas.fillColor = Color.blue
+canvas.borderColor = Color.blue
 canvas.drawEllipse(centreX: 250, centreY: -80, width: 300, height: 450)
-canvas.fillColor = Color.purple
+canvas.borderColor = Color.purple
 canvas.drawEllipse(centreX: 250, centreY: -100, width: 250, height: 450)
 
 
